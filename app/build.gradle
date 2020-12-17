@@ -22,6 +22,9 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
         }
     }
 }
+dependencies {
+    kotlinPlugin "androidx.compose.compiler:compiler:$compose_version"
+}
 
 // jw Experimental config - end
 
